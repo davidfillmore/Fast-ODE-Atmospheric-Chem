@@ -1,0 +1,962 @@
+{
+  "source_repository": "https://github.com/davidfillmore/ODE",
+  "source_commit": "bbb933a4447dd730c24e78e6bbaed62c3f725c96",
+  "paper": "paper_fast_ode_ts1_v2",
+  "scenario_cells": 64,
+  "files": [
+    {
+      "source": "fastode/experiments/be_substeps.py",
+      "destination": "experiments/be_substeps.py",
+      "operation": "copied",
+      "source_sha256": "b10bfc6ac214d35e107a3fb445d4ac23d8449871a582d5f41fc0ed0a407dee1a",
+      "import_sha256": "b10bfc6ac214d35e107a3fb445d4ac23d8449871a582d5f41fc0ed0a407dee1a",
+      "sha256": "88b070aa96f955e3a55052be94d6aee0ad594843a9f9d01de865661fc27860af",
+      "portability_edits": true
+    },
+    {
+      "source": "fastode/experiments/dae_experiments.py",
+      "destination": "experiments/dae_experiments.py",
+      "operation": "copied",
+      "source_sha256": "a5f63676a0f946a79419d85214032615afe2017228ca748579b76edba7c4b496",
+      "import_sha256": "a5f63676a0f946a79419d85214032615afe2017228ca748579b76edba7c4b496",
+      "sha256": "a5f63676a0f946a79419d85214032615afe2017228ca748579b76edba7c4b496"
+    },
+    {
+      "source": "fastode/experiments/make_tables.py",
+      "destination": "experiments/make_tables.py",
+      "operation": "copied",
+      "source_sha256": "0398fc522a3667912821eea9febef1603053bce24b8f8fa154a5cc7a0bc64da8",
+      "import_sha256": "0398fc522a3667912821eea9febef1603053bce24b8f8fa154a5cc7a0bc64da8",
+      "sha256": "c64c62ae412eed7d549e9c8e4921dbe3d7bf6bdd126dc95c05d2ebd137b33a44",
+      "portability_edits": true
+    },
+    {
+      "source": "fastode/experiments/make_tables_dae.py",
+      "destination": "experiments/make_tables_dae.py",
+      "operation": "copied",
+      "source_sha256": "4b06b07b3309c793ad54e34eb894197404acf1e056780a18b32243039ab1217c",
+      "import_sha256": "4b06b07b3309c793ad54e34eb894197404acf1e056780a18b32243039ab1217c",
+      "sha256": "4ca67fdaf4b5302b92dde5dd40f2180e083c9675e7dde41233b805a663602a36",
+      "portability_edits": true
+    },
+    {
+      "source": "fastode/experiments/small_problems.py",
+      "destination": "experiments/small_problems.py",
+      "operation": "copied",
+      "source_sha256": "5c05155ea702f78ea90f5c3955c45987dbd82bbc15c69941526e5871da96d8cd",
+      "import_sha256": "5c05155ea702f78ea90f5c3955c45987dbd82bbc15c69941526e5871da96d8cd",
+      "sha256": "5c05155ea702f78ea90f5c3955c45987dbd82bbc15c69941526e5871da96d8cd"
+    },
+    {
+      "source": "fastode/experiments/ts1_dae.py",
+      "destination": "experiments/ts1_dae.py",
+      "operation": "copied",
+      "source_sha256": "a4a45f3ea64210d63feb57bfc5a0e8078e54eae459dc9744ce169ec8a24719e8",
+      "import_sha256": "a4a45f3ea64210d63feb57bfc5a0e8078e54eae459dc9744ce169ec8a24719e8",
+      "sha256": "7fed66a20dffe38fdd30df618c312740ebada91146540bc3fa859c49ab848267",
+      "portability_edits": true
+    },
+    {
+      "source": "fastode/experiments/ts1_experiments.py",
+      "destination": "experiments/ts1_experiments.py",
+      "operation": "copied",
+      "source_sha256": "d6f836ba066164900ab4f84198b6db4053bbabc79bd320c82baf5366dfc4ae86",
+      "import_sha256": "d6f836ba066164900ab4f84198b6db4053bbabc79bd320c82baf5366dfc4ae86",
+      "sha256": "3387688fb811f9f5cde8f04404be7bcc6d1642849dcfc791e63a94f440049e19",
+      "portability_edits": true
+    },
+    {
+      "source": "fastode/experiments/ts1_rejections.py",
+      "destination": "experiments/ts1_rejections.py",
+      "operation": "copied",
+      "source_sha256": "15804816d45127e19e0cfb2ab9bc7eaea7e276f6c417101b3dc076d4791977c0",
+      "import_sha256": "15804816d45127e19e0cfb2ab9bc7eaea7e276f6c417101b3dc076d4791977c0",
+      "sha256": "93f2944f991d368baee98b01d57f7f5b5590b7e631b94acd6a7278a2e8c46372",
+      "portability_edits": true
+    },
+    {
+      "source": "fastode/fastode/__init__.py",
+      "destination": "fastode/__init__.py",
+      "operation": "copied",
+      "source_sha256": "3ac59020fe955537b897f4d7886ecea710f9133e120230e75f10003bb86270fb",
+      "import_sha256": "3ac59020fe955537b897f4d7886ecea710f9133e120230e75f10003bb86270fb",
+      "sha256": "3ac59020fe955537b897f4d7886ecea710f9133e120230e75f10003bb86270fb"
+    },
+    {
+      "source": "fastode/fastode/chem.py",
+      "destination": "fastode/chem.py",
+      "operation": "copied",
+      "source_sha256": "6867b17b2ac2d7c3697a6f6d12b3d2f35273d42c763e2ca70b9247f8d14d09db",
+      "import_sha256": "6867b17b2ac2d7c3697a6f6d12b3d2f35273d42c763e2ca70b9247f8d14d09db",
+      "sha256": "6867b17b2ac2d7c3697a6f6d12b3d2f35273d42c763e2ca70b9247f8d14d09db"
+    },
+    {
+      "source": "fastode/fastode/counts.py",
+      "destination": "fastode/counts.py",
+      "operation": "copied",
+      "source_sha256": "f46841569c3da4b136fe32a81e5047f9262bed4c145fd6d100ef0213a28f4e0a",
+      "import_sha256": "f46841569c3da4b136fe32a81e5047f9262bed4c145fd6d100ef0213a28f4e0a",
+      "sha256": "f46841569c3da4b136fe32a81e5047f9262bed4c145fd6d100ef0213a28f4e0a"
+    },
+    {
+      "source": "fastode/fastode/data/ts1.json",
+      "destination": "fastode/data/ts1.json",
+      "operation": "copied",
+      "source_sha256": "fcc477c221159bc2e46a36f03f65841fc647bcc6dd99982bdd269c7619b7df2c",
+      "import_sha256": "fcc477c221159bc2e46a36f03f65841fc647bcc6dd99982bdd269c7619b7df2c",
+      "sha256": "fcc477c221159bc2e46a36f03f65841fc647bcc6dd99982bdd269c7619b7df2c"
+    },
+    {
+      "source": "fastode/fastode/linalg.py",
+      "destination": "fastode/linalg.py",
+      "operation": "copied",
+      "source_sha256": "32a53627c627c9c72950841fad11978777cfdf4209b6abb7768749972f025d61",
+      "import_sha256": "32a53627c627c9c72950841fad11978777cfdf4209b6abb7768749972f025d61",
+      "sha256": "32a53627c627c9c72950841fad11978777cfdf4209b6abb7768749972f025d61"
+    },
+    {
+      "source": "fastode/fastode/problems.py",
+      "destination": "fastode/problems.py",
+      "operation": "copied",
+      "source_sha256": "8f88a9d373e1543c63164c38bf3f9dcd7ddc14fa8d65e9b5622cc7e495b16442",
+      "import_sha256": "8f88a9d373e1543c63164c38bf3f9dcd7ddc14fa8d65e9b5622cc7e495b16442",
+      "sha256": "8f88a9d373e1543c63164c38bf3f9dcd7ddc14fa8d65e9b5622cc7e495b16442"
+    },
+    {
+      "source": "fastode/fastode/reference.py",
+      "destination": "fastode/reference.py",
+      "operation": "copied",
+      "source_sha256": "6ac24594c041707200b84ad96d2d32d4ff3de53910b3342e8ebceaad45c47c0e",
+      "import_sha256": "6ac24594c041707200b84ad96d2d32d4ff3de53910b3342e8ebceaad45c47c0e",
+      "sha256": "6ac24594c041707200b84ad96d2d32d4ff3de53910b3342e8ebceaad45c47c0e"
+    },
+    {
+      "source": "fastode/fastode/solvers.py",
+      "destination": "fastode/solvers.py",
+      "operation": "copied",
+      "source_sha256": "4289e924a4590b5f76629cd546223cffea181f500b138a2eb09dc211051593f0",
+      "import_sha256": "4289e924a4590b5f76629cd546223cffea181f500b138a2eb09dc211051593f0",
+      "sha256": "4289e924a4590b5f76629cd546223cffea181f500b138a2eb09dc211051593f0"
+    },
+    {
+      "source": "fastode/fastode/system.py",
+      "destination": "fastode/system.py",
+      "operation": "copied",
+      "source_sha256": "52abcde1dabf3af8a4d2b7e61f923888ff79db1987bc72f8e72547632ba1f7a2",
+      "import_sha256": "52abcde1dabf3af8a4d2b7e61f923888ff79db1987bc72f8e72547632ba1f7a2",
+      "sha256": "52abcde1dabf3af8a4d2b7e61f923888ff79db1987bc72f8e72547632ba1f7a2"
+    },
+    {
+      "source": "fastode/fastode/tableaus.py",
+      "destination": "fastode/tableaus.py",
+      "operation": "copied",
+      "source_sha256": "353518d41bea8a117c728129f31f16b6cf08a1ecf80e377d637f3da92bfbbe72",
+      "import_sha256": "353518d41bea8a117c728129f31f16b6cf08a1ecf80e377d637f3da92bfbbe72",
+      "sha256": "353518d41bea8a117c728129f31f16b6cf08a1ecf80e377d637f3da92bfbbe72"
+    },
+    {
+      "source": "fastode/fastode/ts1.py",
+      "destination": "fastode/ts1.py",
+      "operation": "copied",
+      "source_sha256": "b87ab7c1f3393455ca490f95e1a5f31e05011c03361e607e0ae149d2187ca09a",
+      "import_sha256": "b87ab7c1f3393455ca490f95e1a5f31e05011c03361e607e0ae149d2187ca09a",
+      "sha256": "b87ab7c1f3393455ca490f95e1a5f31e05011c03361e607e0ae149d2187ca09a"
+    },
+    {
+      "source": "fastode/results/dae/akzo.csv",
+      "destination": "reference-results/dae/akzo.csv",
+      "operation": "copied",
+      "source_sha256": "0641fb65b19e2c6d31bdb9685a744143af30a8160dfc92a78acb9a8a5fd52502",
+      "import_sha256": "0641fb65b19e2c6d31bdb9685a744143af30a8160dfc92a78acb9a8a5fd52502",
+      "sha256": "0641fb65b19e2c6d31bdb9685a744143af30a8160dfc92a78acb9a8a5fd52502"
+    },
+    {
+      "source": "fastode/results/dae/chapman.csv",
+      "destination": "reference-results/dae/chapman.csv",
+      "operation": "copied",
+      "source_sha256": "9178dcca801421aaa6726e5f497cdafdaad9b8dd8fdd1f9ba0b732a7fd6187a4",
+      "import_sha256": "9178dcca801421aaa6726e5f497cdafdaad9b8dd8fdd1f9ba0b732a7fd6187a4",
+      "sha256": "9178dcca801421aaa6726e5f497cdafdaad9b8dd8fdd1f9ba0b732a7fd6187a4"
+    },
+    {
+      "source": "fastode/results/dae/conservation.csv",
+      "destination": "reference-results/dae/conservation.csv",
+      "operation": "copied",
+      "source_sha256": "cd85595212a2b32b3fda1a2c60fb24475cbf589a1c6dae5bab64b1163b37feed",
+      "import_sha256": "cd85595212a2b32b3fda1a2c60fb24475cbf589a1c6dae5bab64b1163b37feed",
+      "sha256": "cd85595212a2b32b3fda1a2c60fb24475cbf589a1c6dae5bab64b1163b37feed"
+    },
+    {
+      "source": "fastode/results/dae/index2.csv",
+      "destination": "reference-results/dae/index2.csv",
+      "operation": "copied",
+      "source_sha256": "8106afadb54d4ae04f4eb9c3b3d7fff971633e7dee2ff0aaf7ee309d8328bd33",
+      "import_sha256": "8106afadb54d4ae04f4eb9c3b3d7fff971633e7dee2ff0aaf7ee309d8328bd33",
+      "sha256": "8106afadb54d4ae04f4eb9c3b3d7fff971633e7dee2ff0aaf7ee309d8328bd33"
+    },
+    {
+      "source": "fastode/results/dae/orders.csv",
+      "destination": "reference-results/dae/orders.csv",
+      "operation": "copied",
+      "source_sha256": "f35bfa4ed3eb5fdd70901535945a51b93a323cc867897a9579727fa5634a4647",
+      "import_sha256": "f35bfa4ed3eb5fdd70901535945a51b93a323cc867897a9579727fa5634a4647",
+      "sha256": "f35bfa4ed3eb5fdd70901535945a51b93a323cc867897a9579727fa5634a4647"
+    },
+    {
+      "source": "fastode/results/dae/projection.csv",
+      "destination": "reference-results/dae/projection.csv",
+      "operation": "copied",
+      "source_sha256": "a046c1e41b131d2332e252ad09480ba3fc9b7142dd7b6866718af590b3f735c5",
+      "import_sha256": "a046c1e41b131d2332e252ad09480ba3fc9b7142dd7b6866718af590b3f735c5",
+      "sha256": "a046c1e41b131d2332e252ad09480ba3fc9b7142dd7b6866718af590b3f735c5"
+    },
+    {
+      "source": "fastode/results/dae/prothero_robinson.csv",
+      "destination": "reference-results/dae/prothero_robinson.csv",
+      "operation": "copied",
+      "source_sha256": "1ecbcf014a7f9fa492493e9742bb22586ace7ed984eb90dce6bb20c660e7f7a9",
+      "import_sha256": "1ecbcf014a7f9fa492493e9742bb22586ace7ed984eb90dce6bb20c660e7f7a9",
+      "sha256": "1ecbcf014a7f9fa492493e9742bb22586ace7ed984eb90dce6bb20c660e7f7a9"
+    },
+    {
+      "source": "fastode/results/dae/qde.csv",
+      "destination": "reference-results/dae/qde.csv",
+      "operation": "copied",
+      "source_sha256": "0724d7d5b096fa1bc0475040aed256edf8973a7b85269f213e5caa8b926269bc",
+      "import_sha256": "0724d7d5b096fa1bc0475040aed256edf8973a7b85269f213e5caa8b926269bc",
+      "sha256": "0724d7d5b096fa1bc0475040aed256edf8973a7b85269f213e5caa8b926269bc"
+    },
+    {
+      "source": "fastode/results/dae/robertson.csv",
+      "destination": "reference-results/dae/robertson.csv",
+      "operation": "copied",
+      "source_sha256": "84e0cd10abb0dbe91437073831a3a591a9950774b936140cf1e0c1f08d5a728f",
+      "import_sha256": "84e0cd10abb0dbe91437073831a3a591a9950774b936140cf1e0c1f08d5a728f",
+      "sha256": "84e0cd10abb0dbe91437073831a3a591a9950774b936140cf1e0c1f08d5a728f"
+    },
+    {
+      "source": "fastode/results/dae/rows_control.csv",
+      "destination": "reference-results/dae/rows_control.csv",
+      "operation": "copied",
+      "source_sha256": "2b0994be0096fc23f85b6645de45390366aa858c6f894514fda422a0f56bb96e",
+      "import_sha256": "2b0994be0096fc23f85b6645de45390366aa858c6f894514fda422a0f56bb96e",
+      "sha256": "2b0994be0096fc23f85b6645de45390366aa858c6f894514fda422a0f56bb96e"
+    },
+    {
+      "source": "fastode/results/dae/schur.csv",
+      "destination": "reference-results/dae/schur.csv",
+      "operation": "copied",
+      "source_sha256": "6b10f3d17c917f7fe48f2f63bc9f9f16576b72a9684e1b1b2eda37013a3001a9",
+      "import_sha256": "6b10f3d17c917f7fe48f2f63bc9f9f16576b72a9684e1b1b2eda37013a3001a9",
+      "sha256": "6b10f3d17c917f7fe48f2f63bc9f9f16576b72a9684e1b1b2eda37013a3001a9"
+    },
+    {
+      "source": "fastode/results/dae/triples.csv",
+      "destination": "reference-results/dae/triples.csv",
+      "operation": "copied",
+      "source_sha256": "49b2dafb8d8abdba99e8bacdcac3ce6c43f3869722cfca1115dc74da5d65b13e",
+      "import_sha256": "49b2dafb8d8abdba99e8bacdcac3ce6c43f3869722cfca1115dc74da5d65b13e",
+      "sha256": "49b2dafb8d8abdba99e8bacdcac3ce6c43f3869722cfca1115dc74da5d65b13e"
+    },
+    {
+      "source": "fastode/results/dae/tropospheric.csv",
+      "destination": "reference-results/dae/tropospheric.csv",
+      "operation": "copied",
+      "source_sha256": "8d2c594af401eb70215da0eecc977d7a3226233fad278e33d305f68365908f0f",
+      "import_sha256": "8d2c594af401eb70215da0eecc977d7a3226233fad278e33d305f68365908f0f",
+      "sha256": "8d2c594af401eb70215da0eecc977d7a3226233fad278e33d305f68365908f0f"
+    },
+    {
+      "source": "fastode/results/dae/ts1_families.csv",
+      "destination": "reference-results/dae/ts1_families.csv",
+      "operation": "copied",
+      "source_sha256": "e988ce33383757b4be602dbc70442e73118a647a33cd01bb5a200e46f00bbf53",
+      "import_sha256": "e988ce33383757b4be602dbc70442e73118a647a33cd01bb5a200e46f00bbf53",
+      "sha256": "e988ce33383757b4be602dbc70442e73118a647a33cd01bb5a200e46f00bbf53"
+    },
+    {
+      "source": "fastode/results/dae/van_der_pol.csv",
+      "destination": "reference-results/dae/van_der_pol.csv",
+      "operation": "copied",
+      "source_sha256": "2877233bc72902184c7ac0503fc1c5c5e30e4187aa32b7af907f987abb331a40",
+      "import_sha256": "2877233bc72902184c7ac0503fc1c5c5e30e4187aa32b7af907f987abb331a40",
+      "sha256": "2877233bc72902184c7ac0503fc1c5c5e30e4187aa32b7af907f987abb331a40"
+    },
+    {
+      "source": "fastode/results/small/runs.csv",
+      "destination": "reference-results/small/runs.csv",
+      "operation": "copied",
+      "source_sha256": "0b2e768ca1604b389cbdeb47b63661d18c828bb97cc97b38566e6523c05e3f08",
+      "import_sha256": "0b2e768ca1604b389cbdeb47b63661d18c828bb97cc97b38566e6523c05e3f08",
+      "sha256": "0b2e768ca1604b389cbdeb47b63661d18c828bb97cc97b38566e6523c05e3f08"
+    },
+    {
+      "source": "fastode/results/ts1/atol.csv",
+      "destination": "reference-results/ts1/atol.csv",
+      "operation": "copied",
+      "source_sha256": "32e35a726771829991c2389cece8b07cb07ef744845b05c958007dd965b3dee6",
+      "import_sha256": "32e35a726771829991c2389cece8b07cb07ef744845b05c958007dd965b3dee6",
+      "sha256": "32e35a726771829991c2389cece8b07cb07ef744845b05c958007dd965b3dee6"
+    },
+    {
+      "source": "fastode/results/ts1/be_substeps.csv",
+      "destination": "reference-results/ts1/be_substeps.csv",
+      "operation": "copied",
+      "source_sha256": "a6f2b83ab99a53a125b1ed44af81dd17c0f8218442aaa13e0a79af0dc2d4a483",
+      "import_sha256": "a6f2b83ab99a53a125b1ed44af81dd17c0f8218442aaa13e0a79af0dc2d4a483",
+      "sha256": "a6f2b83ab99a53a125b1ed44af81dd17c0f8218442aaa13e0a79af0dc2d4a483"
+    },
+    {
+      "source": "fastode/results/ts1/rejections.csv",
+      "destination": "reference-results/ts1/rejections.csv",
+      "operation": "copied",
+      "source_sha256": "2d80186dcc25d52bc81d6d4730498b796fab312b310d31ecbbb9eed273048d9a",
+      "import_sha256": "2d80186dcc25d52bc81d6d4730498b796fab312b310d31ecbbb9eed273048d9a",
+      "sha256": "2d80186dcc25d52bc81d6d4730498b796fab312b310d31ecbbb9eed273048d9a"
+    },
+    {
+      "source": "fastode/results/ts1/runs.csv",
+      "destination": "reference-results/ts1/runs.csv",
+      "operation": "copied",
+      "source_sha256": "de8cdfa3d850a48270d7fe716eb8ad80a06263a6bdd68046b0772a0d79c0eebe",
+      "import_sha256": "de8cdfa3d850a48270d7fe716eb8ad80a06263a6bdd68046b0772a0d79c0eebe",
+      "sha256": "de8cdfa3d850a48270d7fe716eb8ad80a06263a6bdd68046b0772a0d79c0eebe"
+    },
+    {
+      "source": "fastode/results/ts1/summary.md",
+      "destination": "reference-results/ts1/summary.md",
+      "operation": "copied",
+      "source_sha256": "dd415075b239b45c0513334fcbbbdeeb6bde1bc8f8775b09cfbc68db8174532f",
+      "import_sha256": "dd415075b239b45c0513334fcbbbdeeb6bde1bc8f8775b09cfbc68db8174532f",
+      "sha256": "dd415075b239b45c0513334fcbbbdeeb6bde1bc8f8775b09cfbc68db8174532f"
+    },
+    {
+      "source": "fastode/results/ts1/worst_species.json",
+      "destination": "reference-results/ts1/worst_species.json",
+      "operation": "copied",
+      "source_sha256": "70761e5a475ba1ad2d04a6b548d03aecf425849042ee9cd201a5694f956885bd",
+      "import_sha256": "70761e5a475ba1ad2d04a6b548d03aecf425849042ee9cd201a5694f956885bd",
+      "sha256": "70761e5a475ba1ad2d04a6b548d03aecf425849042ee9cd201a5694f956885bd"
+    },
+    {
+      "source": "fastode/results/validation.md",
+      "destination": "reference-results/validation.md",
+      "operation": "copied",
+      "source_sha256": "f498ecdc1b913eb32ba4b51cc4dc5fa9ec19a6ec0ed2e5250b346245dda48d67",
+      "import_sha256": "f498ecdc1b913eb32ba4b51cc4dc5fa9ec19a6ec0ed2e5250b346245dda48d67",
+      "sha256": "f498ecdc1b913eb32ba4b51cc4dc5fa9ec19a6ec0ed2e5250b346245dda48d67"
+    },
+    {
+      "source": "fastode/tests/test_fastode.py",
+      "destination": "tests/test_fastode.py",
+      "operation": "copied",
+      "source_sha256": "f06f3a827f28f5b2c67ae0ac750a514343f2c614b029e49913450dc4ea673d98",
+      "import_sha256": "f06f3a827f28f5b2c67ae0ac750a514343f2c614b029e49913450dc4ea673d98",
+      "sha256": "f06f3a827f28f5b2c67ae0ac750a514343f2c614b029e49913450dc4ea673d98"
+    },
+    {
+      "source": "fastode/validation/micm_be_scenario.cpp",
+      "destination": "validation/micm_be_scenario.cpp",
+      "operation": "copied",
+      "source_sha256": "42d794d7945df686b0e69b089dd727b080cb422e540f8bbf6bb40e93978ba10b",
+      "import_sha256": "42d794d7945df686b0e69b089dd727b080cb422e540f8bbf6bb40e93978ba10b",
+      "sha256": "42d794d7945df686b0e69b089dd727b080cb422e540f8bbf6bb40e93978ba10b"
+    },
+    {
+      "source": "fastode/validation/scenario_agreement.py",
+      "destination": "validation/scenario_agreement.py",
+      "operation": "copied",
+      "source_sha256": "0164acb86c7d33da6d68303157c95d7422f1554c59c153a193fae6eb2176186e",
+      "import_sha256": "0164acb86c7d33da6d68303157c95d7422f1554c59c153a193fae6eb2176186e",
+      "sha256": "bb7ce74e846ff5f53ab47629b7396406a3bd79e13e64f7058637471a1951ae28",
+      "portability_edits": true
+    },
+    {
+      "source": "fastode/validation/tier1_final.py",
+      "destination": "validation/tier1_final.py",
+      "operation": "copied",
+      "source_sha256": "eb847b4e482258018882b8ed428d174f6feff1f1719fffade3cf8c8e12990eca",
+      "import_sha256": "eb847b4e482258018882b8ed428d174f6feff1f1719fffade3cf8c8e12990eca",
+      "sha256": "3780687c9284808f80261d53d1c2b057a6ebe98dbf59d415648811b44ffa26e8",
+      "portability_edits": true
+    },
+    {
+      "source": "benchmarks/reference/ts1_cells_100_seed1.csv",
+      "destination": "data/validation/ts1_cells_100_seed1.csv",
+      "operation": "copied",
+      "source_sha256": "c8dd45eac8630bf62716e2d67278442f1f3705cbe3d1ee137f59c3a508962082",
+      "import_sha256": "c8dd45eac8630bf62716e2d67278442f1f3705cbe3d1ee137f59c3a508962082",
+      "sha256": "c8dd45eac8630bf62716e2d67278442f1f3705cbe3d1ee137f59c3a508962082"
+    },
+    {
+      "source": "benchmarks/reference/micm_ts1_final_100_seed1.csv",
+      "destination": "data/validation/micm_ts1_final_100_seed1.csv",
+      "operation": "copied",
+      "source_sha256": "002948001f5158f2daad66d1c436e20195d91883d02f1a8ad75348a5cf13b01c",
+      "import_sha256": "002948001f5158f2daad66d1c436e20195d91883d02f1a8ad75348a5cf13b01c",
+      "sha256": "002948001f5158f2daad66d1c436e20195d91883d02f1a8ad75348a5cf13b01c"
+    },
+    {
+      "source": "benchmarks/micm/LICENSE",
+      "destination": "third-party/MICM-LICENSE",
+      "operation": "copied",
+      "source_sha256": "b65197f24ad1a237c8dde9d6f45a9c8e3f3f01bc2f06b86cfee031391d1356b3",
+      "import_sha256": "b65197f24ad1a237c8dde9d6f45a9c8e3f3f01bc2f06b86cfee031391d1356b3",
+      "sha256": "b65197f24ad1a237c8dde9d6f45a9c8e3f3f01bc2f06b86cfee031391d1356b3"
+    },
+    {
+      "source": "benchmarks/micm/NOTICE",
+      "destination": "third-party/MICM-NOTICE",
+      "operation": "copied",
+      "source_sha256": "dd12986a669e81392bcfbb760be9e43d5fa9e83848fa67d40b5e5cb3efaa9859",
+      "import_sha256": "dd12986a669e81392bcfbb760be9e43d5fa9e83848fa67d40b5e5cb3efaa9859",
+      "sha256": "dd12986a669e81392bcfbb760be9e43d5fa9e83848fa67d40b5e5cb3efaa9859"
+    },
+    {
+      "source": "paper_fast_ode/tools/check_tableaus.py",
+      "destination": "tools/check_tableaus.py",
+      "operation": "copied",
+      "source_sha256": "482e38a2e5d9c49764d55a3cfe155ec8a6a3847d5aa80269e5e3874367ff4d06",
+      "import_sha256": "482e38a2e5d9c49764d55a3cfe155ec8a6a3847d5aa80269e5e3874367ff4d06",
+      "sha256": "482e38a2e5d9c49764d55a3cfe155ec8a6a3847d5aa80269e5e3874367ff4d06"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/micm_scenario.cpp",
+      "destination": "validation/micm_scenario.cpp",
+      "operation": "copied",
+      "source_sha256": "a0795cd77d1a878c62cc0d1d0b7d743b2fb41df9435c6e10cfb4710bb778509f",
+      "import_sha256": "a0795cd77d1a878c62cc0d1d0b7d743b2fb41df9435c6e10cfb4710bb778509f",
+      "sha256": "a0795cd77d1a878c62cc0d1d0b7d743b2fb41df9435c6e10cfb4710bb778509f"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/clean-10min/scenario.txt",
+      "destination": "data/scenarios/clean-10min/scenario.txt",
+      "operation": "copied",
+      "source_sha256": "c3e4eb925617c1f3dc3fd5851013722e133b294303c8402155ccbfeb3cb6523a",
+      "import_sha256": "c3e4eb925617c1f3dc3fd5851013722e133b294303c8402155ccbfeb3cb6523a",
+      "sha256": "c3e4eb925617c1f3dc3fd5851013722e133b294303c8402155ccbfeb3cb6523a"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/clean-10min/photolysis.csv",
+      "destination": "data/scenarios/clean-10min/photolysis.csv",
+      "operation": "copied",
+      "source_sha256": "d32e13f12296baf18774dbd1238b001476c380114c4ef69643636ccf573f6d3f",
+      "import_sha256": "d32e13f12296baf18774dbd1238b001476c380114c4ef69643636ccf573f6d3f",
+      "sha256": "d32e13f12296baf18774dbd1238b001476c380114c4ef69643636ccf573f6d3f"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/clean-10min/references.log",
+      "destination": "data/scenarios/clean-10min/references.log",
+      "operation": "copied",
+      "source_sha256": "e3bccc02904c0f0ebad595b363ab43cd227c66dc331e6c1f448c1631e1461c34",
+      "import_sha256": "e3bccc02904c0f0ebad595b363ab43cd227c66dc331e6c1f448c1631e1461c34",
+      "sha256": "e3bccc02904c0f0ebad595b363ab43cd227c66dc331e6c1f448c1631e1461c34"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/clean-10min/cells.csv",
+      "destination": "data/scenarios/clean-10min/cells.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "a257152943d540e32971de62a3b5f611412eddbfc66b1fbd26150a92529907cb",
+      "import_sha256": "fd8f4b90340642eec339508e8e0d87b405b41050aa5ef3f446201767433d5816",
+      "sha256": "fd8f4b90340642eec339508e8e0d87b405b41050aa5ef3f446201767433d5816"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/clean-10min/reference_final.csv",
+      "destination": "data/scenarios/clean-10min/reference_final.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "1f499b8e894f3fa3f12d008f6f1a1621cbc031a1223a43939fca123dcddd1226",
+      "import_sha256": "814dabbc0b3e0d93348349be316032c9318d222bcfb7d7a97e860e2c399ead6a",
+      "sha256": "814dabbc0b3e0d93348349be316032c9318d222bcfb7d7a97e860e2c399ead6a"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/clean-10min/reference_snapshots.csv",
+      "destination": "data/scenarios/clean-10min/reference_snapshots.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "21465013a040831375a63edb9c42ec450d53bcdf170210cb501e7a95f3a81581",
+      "import_sha256": "a8cb4210a73551d61df3ce70c2a19d7bd844445b6b17f3cbef5f2d3e61acb4db",
+      "sha256": "a8cb4210a73551d61df3ce70c2a19d7bd844445b6b17f3cbef5f2d3e61acb4db"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/diurnal-10min/scenario.txt",
+      "destination": "data/scenarios/diurnal-10min/scenario.txt",
+      "operation": "copied",
+      "source_sha256": "4f46eee949acefd03eb028c4d9550c470a25889523019d111997cbaf385f64b3",
+      "import_sha256": "4f46eee949acefd03eb028c4d9550c470a25889523019d111997cbaf385f64b3",
+      "sha256": "4f46eee949acefd03eb028c4d9550c470a25889523019d111997cbaf385f64b3"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/diurnal-10min/photolysis.csv",
+      "destination": "data/scenarios/diurnal-10min/photolysis.csv",
+      "operation": "copied",
+      "source_sha256": "d32e13f12296baf18774dbd1238b001476c380114c4ef69643636ccf573f6d3f",
+      "import_sha256": "d32e13f12296baf18774dbd1238b001476c380114c4ef69643636ccf573f6d3f",
+      "sha256": "d32e13f12296baf18774dbd1238b001476c380114c4ef69643636ccf573f6d3f"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/diurnal-10min/references.log",
+      "destination": "data/scenarios/diurnal-10min/references.log",
+      "operation": "copied",
+      "source_sha256": "c4afd43ec51ac9b01137d4ac3adab7a28fe30022bb6c817be075b1660fbb6c79",
+      "import_sha256": "c4afd43ec51ac9b01137d4ac3adab7a28fe30022bb6c817be075b1660fbb6c79",
+      "sha256": "c4afd43ec51ac9b01137d4ac3adab7a28fe30022bb6c817be075b1660fbb6c79"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/diurnal-10min/cells.csv",
+      "destination": "data/scenarios/diurnal-10min/cells.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "4faefc73bd181e84f6e116831469ec619a916ef97742e7b8e65ad7718f9002b4",
+      "import_sha256": "414ddc7ecb0b626481b047b42ca3e952a41ee11a82c2b599b8ae7386db42dc4f",
+      "sha256": "414ddc7ecb0b626481b047b42ca3e952a41ee11a82c2b599b8ae7386db42dc4f"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/diurnal-10min/reference_final.csv",
+      "destination": "data/scenarios/diurnal-10min/reference_final.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "e328d0523c0210135d64de288f0e34565062aafe4b4c23057f37e95e73bd59e3",
+      "import_sha256": "95385cc7c5500923fd03fca462be0427ba3213e5173b3413a6e5674efd0957e7",
+      "sha256": "95385cc7c5500923fd03fca462be0427ba3213e5173b3413a6e5674efd0957e7"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/diurnal-10min/reference_snapshots.csv",
+      "destination": "data/scenarios/diurnal-10min/reference_snapshots.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "f28e46c44d105eee242a5a639001055545fd6a1b4cae0cc19cf2d1771a6f8cc3",
+      "import_sha256": "cbed5e35819fbb7d0e8ad97966f8496231617e06accd1c1a480513076fbffe81",
+      "sha256": "cbed5e35819fbb7d0e8ad97966f8496231617e06accd1c1a480513076fbffe81"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/diurnal-30min/scenario.txt",
+      "destination": "data/scenarios/diurnal-30min/scenario.txt",
+      "operation": "copied",
+      "source_sha256": "5ea471ea9c92527ca34d30639e67e6e7a12fa8b9b8e69329eebfe59d8915d7a0",
+      "import_sha256": "5ea471ea9c92527ca34d30639e67e6e7a12fa8b9b8e69329eebfe59d8915d7a0",
+      "sha256": "5ea471ea9c92527ca34d30639e67e6e7a12fa8b9b8e69329eebfe59d8915d7a0"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/diurnal-30min/photolysis.csv",
+      "destination": "data/scenarios/diurnal-30min/photolysis.csv",
+      "operation": "copied",
+      "source_sha256": "d32e13f12296baf18774dbd1238b001476c380114c4ef69643636ccf573f6d3f",
+      "import_sha256": "d32e13f12296baf18774dbd1238b001476c380114c4ef69643636ccf573f6d3f",
+      "sha256": "d32e13f12296baf18774dbd1238b001476c380114c4ef69643636ccf573f6d3f"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/diurnal-30min/references.log",
+      "destination": "data/scenarios/diurnal-30min/references.log",
+      "operation": "copied",
+      "source_sha256": "f64f9c3a744ae6f8b37a355326e196668943ee86336f12735362ff8e03f420ec",
+      "import_sha256": "f64f9c3a744ae6f8b37a355326e196668943ee86336f12735362ff8e03f420ec",
+      "sha256": "f64f9c3a744ae6f8b37a355326e196668943ee86336f12735362ff8e03f420ec"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/diurnal-30min/cells.csv",
+      "destination": "data/scenarios/diurnal-30min/cells.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "4faefc73bd181e84f6e116831469ec619a916ef97742e7b8e65ad7718f9002b4",
+      "import_sha256": "414ddc7ecb0b626481b047b42ca3e952a41ee11a82c2b599b8ae7386db42dc4f",
+      "sha256": "414ddc7ecb0b626481b047b42ca3e952a41ee11a82c2b599b8ae7386db42dc4f"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/diurnal-30min/reference_final.csv",
+      "destination": "data/scenarios/diurnal-30min/reference_final.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "ff9d3b919176f674a5e027e797ffb6837ffbadc173b1529816ea970ff582e039",
+      "import_sha256": "b6e6f91c447581e4498abdbe26367a5fe411ad1456d377f6696c1aa3dbad1326",
+      "sha256": "b6e6f91c447581e4498abdbe26367a5fe411ad1456d377f6696c1aa3dbad1326"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/diurnal-30min/reference_snapshots.csv",
+      "destination": "data/scenarios/diurnal-30min/reference_snapshots.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "6ab55b880baedaf31e425cba88497dfda3843699714f59865a99517af4db5f24",
+      "import_sha256": "c1b0dbab46befb9121bf655f7e528dc25bf6f812df864fe8e658d2362f4eccc5",
+      "sha256": "c1b0dbab46befb9121bf655f7e528dc25bf6f812df864fe8e658d2362f4eccc5"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/diurnal-5min/scenario.txt",
+      "destination": "data/scenarios/diurnal-5min/scenario.txt",
+      "operation": "copied",
+      "source_sha256": "b99b9a6a5398ab254896892a0d7571b13f661a3f5589dbe82b5aa75f52c0b68f",
+      "import_sha256": "b99b9a6a5398ab254896892a0d7571b13f661a3f5589dbe82b5aa75f52c0b68f",
+      "sha256": "b99b9a6a5398ab254896892a0d7571b13f661a3f5589dbe82b5aa75f52c0b68f"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/diurnal-5min/photolysis.csv",
+      "destination": "data/scenarios/diurnal-5min/photolysis.csv",
+      "operation": "copied",
+      "source_sha256": "d32e13f12296baf18774dbd1238b001476c380114c4ef69643636ccf573f6d3f",
+      "import_sha256": "d32e13f12296baf18774dbd1238b001476c380114c4ef69643636ccf573f6d3f",
+      "sha256": "d32e13f12296baf18774dbd1238b001476c380114c4ef69643636ccf573f6d3f"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/diurnal-5min/references.log",
+      "destination": "data/scenarios/diurnal-5min/references.log",
+      "operation": "copied",
+      "source_sha256": "bab30e4b80283bd5c65c3d043efef13836795fac2fbb4eedc6d59e5eabd078ab",
+      "import_sha256": "bab30e4b80283bd5c65c3d043efef13836795fac2fbb4eedc6d59e5eabd078ab",
+      "sha256": "bab30e4b80283bd5c65c3d043efef13836795fac2fbb4eedc6d59e5eabd078ab"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/diurnal-5min/cells.csv",
+      "destination": "data/scenarios/diurnal-5min/cells.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "4faefc73bd181e84f6e116831469ec619a916ef97742e7b8e65ad7718f9002b4",
+      "import_sha256": "414ddc7ecb0b626481b047b42ca3e952a41ee11a82c2b599b8ae7386db42dc4f",
+      "sha256": "414ddc7ecb0b626481b047b42ca3e952a41ee11a82c2b599b8ae7386db42dc4f"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/diurnal-5min/reference_final.csv",
+      "destination": "data/scenarios/diurnal-5min/reference_final.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "e3496329a15a24846c700247968703ed651add7c06a1e77316eebb048d77e389",
+      "import_sha256": "6089f9c6e6012b4f5836987d6bddc1da794b21dd1d837691ad9302cd8a48335c",
+      "sha256": "6089f9c6e6012b4f5836987d6bddc1da794b21dd1d837691ad9302cd8a48335c"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/diurnal-5min/reference_snapshots.csv",
+      "destination": "data/scenarios/diurnal-5min/reference_snapshots.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "c0c49702b40249495e925e92f3c46ca8e7f63ca8f1103120f7c38d474a58a3d9",
+      "import_sha256": "c58bff3f12ed3198bebaf5316cfe3de5f396101e51d268c144d91508ea8ebf10",
+      "sha256": "c58bff3f12ed3198bebaf5316cfe3de5f396101e51d268c144d91508ea8ebf10"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/polluted-10min/scenario.txt",
+      "destination": "data/scenarios/polluted-10min/scenario.txt",
+      "operation": "copied",
+      "source_sha256": "963069835b80ac9ec6fde295754cb12f36fa26e1df8f38f7af3c62cd4924d2b2",
+      "import_sha256": "963069835b80ac9ec6fde295754cb12f36fa26e1df8f38f7af3c62cd4924d2b2",
+      "sha256": "963069835b80ac9ec6fde295754cb12f36fa26e1df8f38f7af3c62cd4924d2b2"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/polluted-10min/photolysis.csv",
+      "destination": "data/scenarios/polluted-10min/photolysis.csv",
+      "operation": "copied",
+      "source_sha256": "d32e13f12296baf18774dbd1238b001476c380114c4ef69643636ccf573f6d3f",
+      "import_sha256": "d32e13f12296baf18774dbd1238b001476c380114c4ef69643636ccf573f6d3f",
+      "sha256": "d32e13f12296baf18774dbd1238b001476c380114c4ef69643636ccf573f6d3f"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/polluted-10min/references.log",
+      "destination": "data/scenarios/polluted-10min/references.log",
+      "operation": "copied",
+      "source_sha256": "e7224a6ca6c3a7542b0bb7a8a912c8bb09bedd079e2c6927f3c04d259e0ab91b",
+      "import_sha256": "e7224a6ca6c3a7542b0bb7a8a912c8bb09bedd079e2c6927f3c04d259e0ab91b",
+      "sha256": "e7224a6ca6c3a7542b0bb7a8a912c8bb09bedd079e2c6927f3c04d259e0ab91b"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/polluted-10min/cells.csv",
+      "destination": "data/scenarios/polluted-10min/cells.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "5b6bb9936e3fffd4d74c57e93495e55b53aef2027fd80407e71735a6917a91fd",
+      "import_sha256": "aae6b267c83157df49f8fc25098c4f539f567b0db6174e2f8d561a7234ae2e41",
+      "sha256": "aae6b267c83157df49f8fc25098c4f539f567b0db6174e2f8d561a7234ae2e41"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/polluted-10min/reference_final.csv",
+      "destination": "data/scenarios/polluted-10min/reference_final.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "ec5afd14fcfa8f6ae66075695898a6ff4a096d9adb00bc27f9b24c56a17c3b2a",
+      "import_sha256": "e4c06588334278fd9bc7f944909e8518fb1c2f00bbd7fdf3c2e9ea58ef2dda0d",
+      "sha256": "e4c06588334278fd9bc7f944909e8518fb1c2f00bbd7fdf3c2e9ea58ef2dda0d"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/polluted-10min/reference_snapshots.csv",
+      "destination": "data/scenarios/polluted-10min/reference_snapshots.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "ecd4318ff9a264ec3a8d1802f89b21ac39840d2f0f5df9e901b31d15e5263736",
+      "import_sha256": "2dfae27bb6253ce3e81482c6688e7f48ceb9378caedf0ca3f9f576dfe96b8e3d",
+      "sha256": "2dfae27bb6253ce3e81482c6688e7f48ceb9378caedf0ca3f9f576dfe96b8e3d"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/tier1-30s/scenario.txt",
+      "destination": "data/scenarios/tier1-30s/scenario.txt",
+      "operation": "copied",
+      "source_sha256": "15394bd7e1b3697b1ea192e81a57fdcae0b70ccbe6ad4394a98bb082d3a4b1df",
+      "import_sha256": "15394bd7e1b3697b1ea192e81a57fdcae0b70ccbe6ad4394a98bb082d3a4b1df",
+      "sha256": "15394bd7e1b3697b1ea192e81a57fdcae0b70ccbe6ad4394a98bb082d3a4b1df"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/tier1-30s/photolysis.csv",
+      "destination": "data/scenarios/tier1-30s/photolysis.csv",
+      "operation": "copied",
+      "source_sha256": "f47104c1e5738cfcbdb4ddfc8f85a0190cc9ccbb4abedb2987cbeee2e607e204",
+      "import_sha256": "f47104c1e5738cfcbdb4ddfc8f85a0190cc9ccbb4abedb2987cbeee2e607e204",
+      "sha256": "f47104c1e5738cfcbdb4ddfc8f85a0190cc9ccbb4abedb2987cbeee2e607e204"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/tier1-30s/references.log",
+      "destination": "data/scenarios/tier1-30s/references.log",
+      "operation": "copied",
+      "source_sha256": "0f68d7e34de7a6cca9cc0430c0681bb2c023396c08bf9bdde45be0ae8fb56bb8",
+      "import_sha256": "0f68d7e34de7a6cca9cc0430c0681bb2c023396c08bf9bdde45be0ae8fb56bb8",
+      "sha256": "0f68d7e34de7a6cca9cc0430c0681bb2c023396c08bf9bdde45be0ae8fb56bb8"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/tier1-30s/cells.csv",
+      "destination": "data/scenarios/tier1-30s/cells.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "e03bd7d9bf7e253f24213a902b805a51c6aa141db5bad2afd3010afb16a0949a",
+      "import_sha256": "1fdac51731ed0ad1bd34c797ab14a4e4c20eceedbd09f8e79c220640da4d6288",
+      "sha256": "1fdac51731ed0ad1bd34c797ab14a4e4c20eceedbd09f8e79c220640da4d6288"
+    },
+    {
+      "source": "benchmarks/tier3/scenarios/tier1-30s/reference_final.csv",
+      "destination": "data/scenarios/tier1-30s/reference_final.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "3007bc73f0c5f67451b725a280f1a1c4bcbb70d364116d2722f9ab11f0acb477",
+      "import_sha256": "3072b7e1726e9f79c984a5854a917025acee384ab5019bc4e0284510c6d9061f",
+      "sha256": "3072b7e1726e9f79c984a5854a917025acee384ab5019bc4e0284510c6d9061f"
+    },
+    {
+      "source": "tier3-heldout/heldout/clean-48h-5min/scenario.txt",
+      "destination": "data/scenarios/clean-48h-5min/scenario.txt",
+      "operation": "copied",
+      "source_sha256": "223295f0ec28fffdba1bdf299caf4ce48b84fbb2c5b22047075d8af645720fbd",
+      "import_sha256": "223295f0ec28fffdba1bdf299caf4ce48b84fbb2c5b22047075d8af645720fbd",
+      "sha256": "223295f0ec28fffdba1bdf299caf4ce48b84fbb2c5b22047075d8af645720fbd"
+    },
+    {
+      "source": "tier3-heldout/heldout/clean-48h-5min/photolysis.csv",
+      "destination": "data/scenarios/clean-48h-5min/photolysis.csv",
+      "operation": "copied",
+      "source_sha256": "01d28c83c8c6854e06cc8b7944e26d4867c1d299921c4ce4a1e29e0c824547d0",
+      "import_sha256": "01d28c83c8c6854e06cc8b7944e26d4867c1d299921c4ce4a1e29e0c824547d0",
+      "sha256": "01d28c83c8c6854e06cc8b7944e26d4867c1d299921c4ce4a1e29e0c824547d0"
+    },
+    {
+      "source": "tier3-heldout/heldout/clean-48h-5min/references.log",
+      "destination": "data/scenarios/clean-48h-5min/references.log",
+      "operation": "copied",
+      "source_sha256": "98e5aa81f07c0f2f32443531b482193336e7b3edab2980760b4f7a9dcf4d8786",
+      "import_sha256": "98e5aa81f07c0f2f32443531b482193336e7b3edab2980760b4f7a9dcf4d8786",
+      "sha256": "98e5aa81f07c0f2f32443531b482193336e7b3edab2980760b4f7a9dcf4d8786"
+    },
+    {
+      "source": "tier3-heldout/heldout/clean-48h-5min/cells.csv",
+      "destination": "data/scenarios/clean-48h-5min/cells.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "a242f1df82a40d93eaddee8dd976ec005fe05fc9892e3e012350e688fe34cabe",
+      "import_sha256": "cfb681836b2448beaaafb3d8e34a3b7c6f11590e92bfd6f7068e7d87f5206d2c",
+      "sha256": "cfb681836b2448beaaafb3d8e34a3b7c6f11590e92bfd6f7068e7d87f5206d2c"
+    },
+    {
+      "source": "tier3-heldout/heldout/clean-48h-5min/reference_final.csv",
+      "destination": "data/scenarios/clean-48h-5min/reference_final.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "28238a19c9b74a6b82b19d9489c4e47f089839b9f148e08fc6cf993d5c6b43aa",
+      "import_sha256": "39d345ae6e362bc5bc25b7d93e4bee879026bdd7a084f79e111e8a62673ee9c3",
+      "sha256": "39d345ae6e362bc5bc25b7d93e4bee879026bdd7a084f79e111e8a62673ee9c3"
+    },
+    {
+      "source": "tier3-heldout/heldout/clean-48h-5min/reference_snapshots.csv",
+      "destination": "data/scenarios/clean-48h-5min/reference_snapshots.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "37319d2ab83c30f8a87f15b3cf8168e8441f1b35f0446af2893bcb7ec28874f4",
+      "import_sha256": "4e501b0c014c5e0ebf8024c1caba5e049656337f591fbb416b10359bb24fd421",
+      "sha256": "4e501b0c014c5e0ebf8024c1caba5e049656337f591fbb416b10359bb24fd421"
+    },
+    {
+      "source": "tier3-heldout/heldout/polluted-48h-30min/scenario.txt",
+      "destination": "data/scenarios/polluted-48h-30min/scenario.txt",
+      "operation": "copied",
+      "source_sha256": "92b3cb4b3c015e2a7dd2bc82d6357d47bb495aa04b2761e83a6822c309cca84e",
+      "import_sha256": "92b3cb4b3c015e2a7dd2bc82d6357d47bb495aa04b2761e83a6822c309cca84e",
+      "sha256": "92b3cb4b3c015e2a7dd2bc82d6357d47bb495aa04b2761e83a6822c309cca84e"
+    },
+    {
+      "source": "tier3-heldout/heldout/polluted-48h-30min/photolysis.csv",
+      "destination": "data/scenarios/polluted-48h-30min/photolysis.csv",
+      "operation": "copied",
+      "source_sha256": "4ddc382188d270b63bd385b5a7e214927eb5781c1541afe0650149ef3efd5fe5",
+      "import_sha256": "4ddc382188d270b63bd385b5a7e214927eb5781c1541afe0650149ef3efd5fe5",
+      "sha256": "4ddc382188d270b63bd385b5a7e214927eb5781c1541afe0650149ef3efd5fe5"
+    },
+    {
+      "source": "tier3-heldout/heldout/polluted-48h-30min/references.log",
+      "destination": "data/scenarios/polluted-48h-30min/references.log",
+      "operation": "copied",
+      "source_sha256": "fb1e46a961cac0cf1d035434d345af9ab5531e5f71f47902838f32c333be4321",
+      "import_sha256": "fb1e46a961cac0cf1d035434d345af9ab5531e5f71f47902838f32c333be4321",
+      "sha256": "fb1e46a961cac0cf1d035434d345af9ab5531e5f71f47902838f32c333be4321"
+    },
+    {
+      "source": "tier3-heldout/heldout/polluted-48h-30min/cells.csv",
+      "destination": "data/scenarios/polluted-48h-30min/cells.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "a923a0c3f9239e8138d91596a1351aabf2fac640e1278e7bd763ebd637132f99",
+      "import_sha256": "63d8b7a1744b1fe09dd12c81f6b0e9728a7fd7ab5ee82c9da36a3277b958cc33",
+      "sha256": "63d8b7a1744b1fe09dd12c81f6b0e9728a7fd7ab5ee82c9da36a3277b958cc33"
+    },
+    {
+      "source": "tier3-heldout/heldout/polluted-48h-30min/reference_final.csv",
+      "destination": "data/scenarios/polluted-48h-30min/reference_final.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "44ca0a6830ff08380a30b6b0027fdd91bb4d3f89b5d8e71af848f698e5b65683",
+      "import_sha256": "b4d20b94f707a5b94c7b0ae6f4013390632180eea36c38ad12f364d332565ead",
+      "sha256": "b4d20b94f707a5b94c7b0ae6f4013390632180eea36c38ad12f364d332565ead"
+    },
+    {
+      "source": "tier3-heldout/heldout/polluted-48h-30min/reference_snapshots.csv",
+      "destination": "data/scenarios/polluted-48h-30min/reference_snapshots.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "2ac9d10ffc3ee8af65a86707e2175544462c745d3d999474bd3e0152fc37af63",
+      "import_sha256": "86224e6723bf0bf5624bd6bddab98ce5c199abd2244f87390646638a4e52b0e7",
+      "sha256": "86224e6723bf0bf5624bd6bddab98ce5c199abd2244f87390646638a4e52b0e7"
+    },
+    {
+      "source": "tier3-heldout/heldout/summer-15min/scenario.txt",
+      "destination": "data/scenarios/summer-15min/scenario.txt",
+      "operation": "copied",
+      "source_sha256": "c8141bdfdfadeacee92e729a385e69731dcff06a853214bd011fb5a23634372c",
+      "import_sha256": "c8141bdfdfadeacee92e729a385e69731dcff06a853214bd011fb5a23634372c",
+      "sha256": "c8141bdfdfadeacee92e729a385e69731dcff06a853214bd011fb5a23634372c"
+    },
+    {
+      "source": "tier3-heldout/heldout/summer-15min/photolysis.csv",
+      "destination": "data/scenarios/summer-15min/photolysis.csv",
+      "operation": "copied",
+      "source_sha256": "9c117d95a3b27e0f8fc80cefff99d9c3078af8de0856ca957643184191ba1fc2",
+      "import_sha256": "9c117d95a3b27e0f8fc80cefff99d9c3078af8de0856ca957643184191ba1fc2",
+      "sha256": "9c117d95a3b27e0f8fc80cefff99d9c3078af8de0856ca957643184191ba1fc2"
+    },
+    {
+      "source": "tier3-heldout/heldout/summer-15min/references.log",
+      "destination": "data/scenarios/summer-15min/references.log",
+      "operation": "copied",
+      "source_sha256": "e011b33e551ded9fc7d3da257b0dbf0fd781a7d0fc3c0dc3b5335fcd2e3c570a",
+      "import_sha256": "e011b33e551ded9fc7d3da257b0dbf0fd781a7d0fc3c0dc3b5335fcd2e3c570a",
+      "sha256": "e011b33e551ded9fc7d3da257b0dbf0fd781a7d0fc3c0dc3b5335fcd2e3c570a"
+    },
+    {
+      "source": "tier3-heldout/heldout/summer-15min/cells.csv",
+      "destination": "data/scenarios/summer-15min/cells.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "bc731bf9118c818f943dc1c1a95441ec0a8ccc6c098b08fe4966acd2e816cf9a",
+      "import_sha256": "978e7811634b90aa009b8c4adc5d2a2939f0040bb9f5c8124e1af9234363c80f",
+      "sha256": "978e7811634b90aa009b8c4adc5d2a2939f0040bb9f5c8124e1af9234363c80f"
+    },
+    {
+      "source": "tier3-heldout/heldout/summer-15min/reference_final.csv",
+      "destination": "data/scenarios/summer-15min/reference_final.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "9dcd3e80205636676b2ccac5c2eff31e5e0152fd9ae70c21f18cbcea9e380dca",
+      "import_sha256": "4e7986c81b1e5c7229ebb4be7cb3a979a1c4672b81027c801d16cbc0db44dfbb",
+      "sha256": "4e7986c81b1e5c7229ebb4be7cb3a979a1c4672b81027c801d16cbc0db44dfbb"
+    },
+    {
+      "source": "tier3-heldout/heldout/summer-15min/reference_snapshots.csv",
+      "destination": "data/scenarios/summer-15min/reference_snapshots.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "62b817d86432b59c1087ea985e49778a46349a24f90017f444ecaa56c6418529",
+      "import_sha256": "b2d737cc6263136d629da527d53cc7b57acefc95bdb32273ff2f79138972786a",
+      "sha256": "b2d737cc6263136d629da527d53cc7b57acefc95bdb32273ff2f79138972786a"
+    },
+    {
+      "source": "tier3-heldout/heldout/tropics-20min/scenario.txt",
+      "destination": "data/scenarios/tropics-20min/scenario.txt",
+      "operation": "copied",
+      "source_sha256": "2d55609feb2370950ca6b58753524c824db535914790cacf272d08248aded622",
+      "import_sha256": "2d55609feb2370950ca6b58753524c824db535914790cacf272d08248aded622",
+      "sha256": "2d55609feb2370950ca6b58753524c824db535914790cacf272d08248aded622"
+    },
+    {
+      "source": "tier3-heldout/heldout/tropics-20min/photolysis.csv",
+      "destination": "data/scenarios/tropics-20min/photolysis.csv",
+      "operation": "copied",
+      "source_sha256": "9f8afd355ebe3b1acc7531cd49e349decf3ab7fa0dc700a6a0b8e945e4d9cfd7",
+      "import_sha256": "9f8afd355ebe3b1acc7531cd49e349decf3ab7fa0dc700a6a0b8e945e4d9cfd7",
+      "sha256": "9f8afd355ebe3b1acc7531cd49e349decf3ab7fa0dc700a6a0b8e945e4d9cfd7"
+    },
+    {
+      "source": "tier3-heldout/heldout/tropics-20min/references.log",
+      "destination": "data/scenarios/tropics-20min/references.log",
+      "operation": "copied",
+      "source_sha256": "05c38a5600969f045d2914137ff384b0cb47f111ae83ae566ef58521aebf774c",
+      "import_sha256": "05c38a5600969f045d2914137ff384b0cb47f111ae83ae566ef58521aebf774c",
+      "sha256": "05c38a5600969f045d2914137ff384b0cb47f111ae83ae566ef58521aebf774c"
+    },
+    {
+      "source": "tier3-heldout/heldout/tropics-20min/cells.csv",
+      "destination": "data/scenarios/tropics-20min/cells.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "ad68af49b37918fafb6d1640604c64e05d04ab0c3e77ec6a5b6d20299a9a57ce",
+      "import_sha256": "50a498da9815259400d4d6e5e4179372c7196b98dc08cdb30ba919cd9ad2b707",
+      "sha256": "50a498da9815259400d4d6e5e4179372c7196b98dc08cdb30ba919cd9ad2b707"
+    },
+    {
+      "source": "tier3-heldout/heldout/tropics-20min/reference_final.csv",
+      "destination": "data/scenarios/tropics-20min/reference_final.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "4200d02f67e81fbc2e9455db2f1e89b1fa054bd339412d209eb8fb1fbda81099",
+      "import_sha256": "4e6f80be3f814e62941858a57255a609c438b0a4ba7fbf482133beb200509583",
+      "sha256": "4e6f80be3f814e62941858a57255a609c438b0a4ba7fbf482133beb200509583"
+    },
+    {
+      "source": "tier3-heldout/heldout/tropics-20min/reference_snapshots.csv",
+      "destination": "data/scenarios/tropics-20min/reference_snapshots.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "954a32abf015311ed972db48da67bd39b0256b6617b14e9b6ebbb1d0050815a1",
+      "import_sha256": "e569f8b9f67cc1fe15e1316bebc48cb56df4ab957740a6745d8f60a379518d1e",
+      "sha256": "e569f8b9f67cc1fe15e1316bebc48cb56df4ab957740a6745d8f60a379518d1e"
+    },
+    {
+      "source": "tier3-heldout/heldout/winter60-10min/scenario.txt",
+      "destination": "data/scenarios/winter60-10min/scenario.txt",
+      "operation": "copied",
+      "source_sha256": "f1b0672ecd2b831414625abc798ccfb7150df7d8a701d65b69eca20b2db6a3bd",
+      "import_sha256": "f1b0672ecd2b831414625abc798ccfb7150df7d8a701d65b69eca20b2db6a3bd",
+      "sha256": "f1b0672ecd2b831414625abc798ccfb7150df7d8a701d65b69eca20b2db6a3bd"
+    },
+    {
+      "source": "tier3-heldout/heldout/winter60-10min/photolysis.csv",
+      "destination": "data/scenarios/winter60-10min/photolysis.csv",
+      "operation": "copied",
+      "source_sha256": "c7941ddfbc6c7da9c109c556a92941c76a4ac26cbfd0d2c83c456687afbdc95a",
+      "import_sha256": "c7941ddfbc6c7da9c109c556a92941c76a4ac26cbfd0d2c83c456687afbdc95a",
+      "sha256": "c7941ddfbc6c7da9c109c556a92941c76a4ac26cbfd0d2c83c456687afbdc95a"
+    },
+    {
+      "source": "tier3-heldout/heldout/winter60-10min/references.log",
+      "destination": "data/scenarios/winter60-10min/references.log",
+      "operation": "copied",
+      "source_sha256": "c7788d950d45eb1e1d61151f20341753956c09e46ace69e35f8f4d81de8ad889",
+      "import_sha256": "c7788d950d45eb1e1d61151f20341753956c09e46ace69e35f8f4d81de8ad889",
+      "sha256": "c7788d950d45eb1e1d61151f20341753956c09e46ace69e35f8f4d81de8ad889"
+    },
+    {
+      "source": "tier3-heldout/heldout/winter60-10min/cells.csv",
+      "destination": "data/scenarios/winter60-10min/cells.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "2a2c7dd52944f139adb23897c99fe33bb96b19afcac8d151b4921e642b5cea66",
+      "import_sha256": "50316b47c463358398c7e26bc6c2893b88eee6d64d768ca9e2bcc49d7ed1d9ac",
+      "sha256": "50316b47c463358398c7e26bc6c2893b88eee6d64d768ca9e2bcc49d7ed1d9ac"
+    },
+    {
+      "source": "tier3-heldout/heldout/winter60-10min/reference_final.csv",
+      "destination": "data/scenarios/winter60-10min/reference_final.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "4b7f11c4ca5cbd0752b75678d37a40b479eea1a53128450fa224e11fc909467c",
+      "import_sha256": "3d198993ecba815075f5924d4f900f4a9cf05e24fc96542e543395ddc84809e3",
+      "sha256": "3d198993ecba815075f5924d4f900f4a9cf05e24fc96542e543395ddc84809e3"
+    },
+    {
+      "source": "tier3-heldout/heldout/winter60-10min/reference_snapshots.csv",
+      "destination": "data/scenarios/winter60-10min/reference_snapshots.csv",
+      "operation": "selected cells 0-63; original CSV rows preserved",
+      "source_sha256": "4b64a68c697644197232631bb3be140b10b4bffa8af5fd43585788b7fde74521",
+      "import_sha256": "ca04a07ee5b4e55ff6f9d331c3b27d717d20dd1a087ed1972437b86af759b749",
+      "sha256": "ca04a07ee5b4e55ff6f9d331c3b27d717d20dd1a087ed1972437b86af759b749"
+    }
+  ],
+  "portability_edited_files": [
+    "experiments/be_substeps.py",
+    "experiments/make_tables.py",
+    "experiments/make_tables_dae.py",
+    "experiments/ts1_dae.py",
+    "experiments/ts1_experiments.py",
+    "experiments/ts1_rejections.py",
+    "validation/scenario_agreement.py",
+    "validation/tier1_final.py"
+  ]
+}

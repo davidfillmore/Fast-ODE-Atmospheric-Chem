@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fast-ode-atmospheric-chem"
+version = "0.1.0"
+description = "Reference Python implementation of A Fast ODE Solver for Atmospheric Chemistry"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = ["numpy>=1.23", "scipy>=1.9"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.urls]
+Repository = "https://github.com/davidfillmore/Fast-ODE-Atmospheric-Chem"
+
+[tool.setuptools]
+license-files = ["LICENSE", "third-party/MICM-LICENSE", "third-party/MICM-NOTICE"]
+
+[tool.setuptools.packages.find]
+include = ["fastode"]
+
+[tool.setuptools.package-data]
+fastode = ["data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,6 @@
+# 1000 cells (seed 201, NOx x1); 96 steps of 900 s; diurnal photolysis, 40 N, day 172, from 6 h local time
+cells = cells.csv
+dt = 900
+steps = 96
+photolysis = photolysis.csv
+snapshot_every = 24

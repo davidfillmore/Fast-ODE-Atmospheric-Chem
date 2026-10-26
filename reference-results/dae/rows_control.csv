@@ -1,0 +1,19 @@
+problem,rtol,solver,digits,steps,rejected,failed_calls
+robertson,0.01,algorithm,3.946,129,0,0
+robertson,0.01,"restarting, step-change rows",5.597,1519,0,0
+robertson,0.01,"restarting, embedded rows",3.487,909,0,0
+robertson,0.001,algorithm,4.38,146,0,0
+robertson,0.001,"restarting, step-change rows",0.561,5899,0,2
+robertson,0.001,"restarting, embedded rows",3.972,919,0,0
+robertson,0.0001,algorithm,5.004,182,0,0
+robertson,0.0001,"restarting, step-change rows",-0.714,47884,1,31
+robertson,0.0001,"restarting, embedded rows",4.589,942,0,0
+tropospheric,0.01,algorithm,1.817,159,0,0
+tropospheric,0.01,"restarting, step-change rows",1.818,1571,0,0
+tropospheric,0.01,"restarting, embedded rows",1.818,1298,0,0
+tropospheric,0.001,algorithm,1.818,195,0,0
+tropospheric,0.001,"restarting, step-change rows",1.818,3243,0,0
+tropospheric,0.001,"restarting, embedded rows",1.818,1301,0,0
+tropospheric,0.0001,algorithm,1.818,245,0,0
+tropospheric,0.0001,"restarting, step-change rows",1.363,19371,0,1
+tropospheric,0.0001,"restarting, embedded rows",1.818,1325,0,0

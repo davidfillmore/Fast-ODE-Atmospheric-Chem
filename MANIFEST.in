@@ -1,0 +1,10 @@
+recursive-include data *.csv *.txt *.log *.md
+recursive-include experiments *.py
+recursive-include examples *.py
+recursive-include tests *.py
+recursive-include tools *.py
+recursive-include validation *.py *.cpp *.md
+recursive-include reference-results *.csv *.json *.md
+recursive-include provenance *.json *.md
+recursive-include third-party *
+include requirements-tested.txt

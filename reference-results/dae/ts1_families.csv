@@ -1,0 +1,15 @@
+rtol,form,tableau,solver,digits,worst,worst_digits,constrained_min_digits,steps_per_interval,lu_per_interval,proj_passes_per_interval,failed_calls,first_failure
+0.001,ode,ros3,algorithm,5.865,ISOP,5.032,nan,1.653,1.653,0.0,0,
+0.001,ode,rodas3,algorithm,5.867,ISOP,5.063,nan,1.55,1.55,0.0,0,
+0.001,dae-4,rodas3,algorithm,2.214,C6H5O2,1.617,2.183,1.594,2.634,1.04,0,
+0.001,dae-9,rodas3,algorithm,2.127,H2SO4,1.541,1.605,1.624,2.688,1.064,0,
+0.001,dae-17,rodas3,algorithm,1.94,ENEO2,1.063,1.063,1.639,2.713,1.074,0,
+0.001,dae-4,rodas3,restarting,2.214,C6H5O2,1.617,2.183,12.614,13.653,1.04,0,
+0.001,ode,rodas3,restarting,5.555,EO2,4.836,nan,9.163,9.163,0.0,0,
+0.0001,ode,ros3,algorithm,6.386,ISOPAO2,5.68,nan,3.045,3.045,0.0,0,
+0.0001,ode,rodas3,algorithm,5.988,ISOP,5.121,nan,2.307,2.307,0.0,0,
+0.0001,dae-4,rodas3,algorithm,2.214,C6H5O2,1.617,2.183,2.327,3.366,1.04,0,
+0.0001,dae-9,rodas3,algorithm,2.127,H2SO4,1.541,1.605,2.371,3.431,1.059,0,
+0.0001,dae-17,rodas3,algorithm,1.94,ENEO2,1.063,1.063,2.361,3.436,1.074,0,
+0.0001,dae-4,rodas3,restarting,2.067,ISOP,1.517,2.165,35.653,36.693,1.04,2,too many steps
+0.0001,ode,rodas3,restarting,6.381,EO2,5.724,nan,9.564,9.564,0.0,0,

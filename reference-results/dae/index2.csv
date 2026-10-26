@@ -1,0 +1,4 @@
+case,status,t_reached,steps,y_minus_sin_t
+"projection, inconsistent start",projection failed,0.0,0,0.5
+"algorithm, consistent start",too many steps,0.07491792657809293,1001,0.0
+"restarting, consistent start",too many steps,0.05026065772974368,1001,0.0

@@ -1,0 +1,7 @@
+# summer-15min: 1000 cells (seed 201, NOx x1); 96 steps of 900 s; diurnal photolysis, 40 N, day 172, from 6 h local time
+# made with micm_scenario --threads 10
+default: elapsed_ms=2133.379 internal_steps=8640 accepted=8640 rejected=0 function_calls=17280 jacobian_updates=8640 decompositions=8640 solves=25920 
+tight: elapsed_ms=71574.482 internal_steps=161970 accepted=159544 rejected=0 function_calls=969394 jacobian_updates=161970 decompositions=161970 solves=971820 
+tighter: elapsed_ms=137924.492 internal_steps=308435 accepted=304633 rejected=0 function_calls=1846808 jacobian_updates=308435 decompositions=308435 solves=1850610 
+convergence (tight against tighter): overall 10.16 digits over 587052 values (178 species, 4000 rows); worst species: OCLO 9.14, BRCL 9.26, CLO 9.43, HO2NO2 9.54, TERP2O2 9.57
+MICM default against tighter: overall 3.14 digits over 587052 values (178 species, 4000 rows); worst species: ISOP 1.92, ISOPNITA 2.20, ISOPO2VBS 2.21, ISOPAO2 2.22, ISOPNITB 2.23

@@ -1,0 +1,7 @@
+# winter60-10min: 1000 cells (seed 203, NOx x1); 144 steps of 600 s; diurnal photolysis, 60 N, day 355, from 6 h local time
+# made with micm_scenario --threads 10
+default: cells 0-99 failed: step 22: Step Size Too Small FAILED 
+tight: elapsed_ms=66427.096 internal_steps=150531 accepted=149115 rejected=0 function_calls=901770 jacobian_updates=150531 decompositions=150531 solves=903186 
+tighter: elapsed_ms=131659.808 internal_steps=296507 accepted=294352 rejected=0 function_calls=1776887 jacobian_updates=296507 decompositions=296507 solves=1779042 
+convergence (tight against tighter): overall 10.69 digits over 620177 values (180 species, 4000 rows); worst species: BR 9.74, HO2NO2 9.80, OCLO 9.87, N2O5 9.92, ISOP 10.13
+MICM default against tighter: no result (the default run failed)

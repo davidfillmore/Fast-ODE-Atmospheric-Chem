@@ -1,0 +1,7 @@
+# polluted-48h-30min: 1000 cells (seed 204, NOx x5); 96 steps of 1800 s; diurnal photolysis, 30 N, day 200, from 6 h local time
+# made with micm_scenario --threads 10
+default: elapsed_ms=2155.388 internal_steps=8640 accepted=8640 rejected=0 function_calls=17280 jacobian_updates=8640 decompositions=8640 solves=25920 
+tight: elapsed_ms=110962.481 internal_steps=251184 accepted=248211 rejected=0 function_calls=1504131 jacobian_updates=251184 decompositions=251184 solves=1507104 
+tighter: elapsed_ms=222544.407 internal_steps=499639 accepted=495817 rejected=0 function_calls=2994012 jacobian_updates=499639 decompositions=499639 solves=2997834 
+convergence (tight against tighter): overall 10.29 digits over 1012621 values (173 species, 8000 rows); worst species: PHENO 9.36, OCLO 9.59, C6H5O2 9.61, HO2NO2 9.66, MCO3 9.67
+MICM default against tighter: overall 1.43 digits over 1012621 values (173 species, 8000 rows); worst species: TERPROD2 0.25, TERP2OOH 0.32, ISOPOOH 0.61, SOAG1 0.71, ISOP 0.89

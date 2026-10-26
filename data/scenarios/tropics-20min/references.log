@@ -1,0 +1,7 @@
+# tropics-20min: 1000 cells (seed 202, NOx x1); 72 steps of 1200 s; diurnal photolysis, 10 N, day 80, from 6 h local time
+# made with micm_scenario --threads 10
+default: cells 0-99 failed: step 1: NaNDetected FAILED 
+tight: elapsed_ms=66029.633 internal_steps=148509 accepted=146856 rejected=0 function_calls=889401 jacobian_updates=148509 decompositions=148509 solves=891054 
+tighter: elapsed_ms=131623.348 internal_steps=293984 accepted=291484 rejected=0 function_calls=1761404 jacobian_updates=293984 decompositions=293984 solves=1763904 
+convergence (tight against tighter): overall 10.26 digits over 587346 values (180 species, 4000 rows); worst species: OCLO 8.98, CLO 9.43, TERP2O2 9.48, HO2NO2 9.51, BRCL 9.63
+MICM default against tighter: no result (the default run failed)

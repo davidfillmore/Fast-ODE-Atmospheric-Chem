@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Local experiment outputs (the paper's records are in reference-results/).
+/results/
+/tables/
+/.DS_Store
+!/data/scenarios/*/references.log

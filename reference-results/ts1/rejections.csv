@@ -1,0 +1,4 @@
+scenario,rtol,calls,rejected_first_step,rejected_later
+diurnal-10min,0.005,288,153,0
+diurnal-10min,0.001,288,670,0
+polluted-48h-30min,0.005,192,411,0

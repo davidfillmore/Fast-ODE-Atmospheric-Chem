@@ -1,0 +1,14 @@
+scenario,substeps,digits,worst_species,worst_digits,level2,level3,newton_per_interval,work_kmadd,failures,unconverged,failed_calls,seconds
+diurnal-10min,1,0.4241,ISOP,-0.7344,False,False,2.0,41.4,0,0,0,5.1
+diurnal-10min,4,1.1918,ISOP,0.1717,False,False,8.0,165.4,0,0,0,18.2
+diurnal-10min,16,1.8275,ISOP,0.8487,False,False,32.0,661.8,0,0,0,64.2
+diurnal-10min,64,2.4338,ISOP,1.4663,True,False,128.0,2647.2,0,0,0,207.8
+diurnal-30min,1,-0.5117,ISOP,-1.9153,False,False,2.0,41.4,0,0,0,2.0
+diurnal-30min,4,0.6096,ISOP,-0.515,False,False,8.0,165.4,0,0,0,6.5
+diurnal-30min,16,1.3293,ISOP,0.3261,False,False,32.0,661.8,0,0,0,23.7
+diurnal-30min,64,1.957,ISOP,0.9836,False,False,128.0,2647.2,0,0,0,80.9
+diurnal-30min,256,2.561,ISOP,1.5968,True,False,512.0,10588.7,0,0,0,269.1
+tier1-30s,1,1.9149,ISOP,1.2069,False,False,2.0,41.4,0,0,0,3.5
+tier1-30s,4,2.5228,ISOP,1.8209,True,False,8.0,165.4,0,0,0,12.5
+tier1-30s,16,3.1251,ISOP,2.4263,True,True,32.0,661.8,0,0,0,46.6
+tier1-30s,64,3.7269,ISOP,3.0292,True,True,128.0,2647.2,0,0,0,149.7

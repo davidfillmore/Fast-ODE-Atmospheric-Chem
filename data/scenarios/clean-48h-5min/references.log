@@ -1,0 +1,7 @@
+# clean-48h-5min: 1000 cells (seed 205, NOx x0.2); 576 steps of 300 s; diurnal photolysis, 50 N, day 260, from 6 h local time
+# made with micm_scenario --threads 10
+default: elapsed_ms=12445.473 internal_steps=51840 accepted=51840 rejected=0 function_calls=103680 jacobian_updates=51840 decompositions=51840 solves=155520 
+tight: elapsed_ms=214352.283 internal_steps=480774 accepted=471402 rejected=0 function_calls=2875272 jacobian_updates=480774 decompositions=480774 solves=2884644 
+tighter: elapsed_ms=375296.722 internal_steps=854283 accepted=840176 rejected=0 function_calls=5111591 jacobian_updates=854283 decompositions=854283 solves=5125698 
+convergence (tight against tighter): overall 10.16 digits over 1156757 values (181 species, 8000 rows); worst species: PHENO 9.40, MALO2 9.48, NO 9.50, HO2NO2 9.50, HO2 9.51
+MICM default against tighter: overall 3.04 digits over 1156757 values (181 species, 8000 rows); worst species: HO2NO2 2.23, NO 2.29, HO2 2.30, BRO 2.43, MALO2 2.50
