@@ -1,5 +1,8 @@
 # A Fast ODE Solver for Atmospheric Chemistry
 
+- **Code DOI:** [10.5281/zenodo.23672473](https://doi.org/10.5281/zenodo.23672473)
+- **Paper:** [A Fast ODE Solver for Atmospheric Chemistry](https://zenodo.org/records/23654022)
+
 The Python reference implementation accompanying the paper of the same name.
 It integrates stiff atmospheric reaction systems over a sequence of host-model
 intervals. `Algorithm(ROS3)` carries its proposed step and H211b controller
