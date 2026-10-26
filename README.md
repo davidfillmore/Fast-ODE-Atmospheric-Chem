@@ -1,7 +1,6 @@
 # A Fast ODE Solver for Atmospheric Chemistry
 
-- **Code DOI:** [10.5281/zenodo.23672473](https://doi.org/10.5281/zenodo.23672473)
-- **Paper:** [A Fast ODE Solver for Atmospheric Chemistry](https://zenodo.org/records/23654022)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23672473.svg)](https://doi.org/10.5281/zenodo.23672473)
 
 The Python reference implementation accompanying the paper of the same name.
 It integrates stiff atmospheric reaction systems over a sequence of host-model
@@ -14,6 +13,20 @@ The restarting Rosenbrock and backward Euler baselines, constrained-system
 extension with RODAS3, experiment drivers, tests, and all eleven TS1 scenarios
 are included. The scenarios contain the **first 64 cells**, exactly the subset
 used in the paper, with their reference final states and snapshots.
+
+## Citation
+
+Please cite the archived code when using this software:
+
+Fillmore, D. (2026). *davidfillmore/Fast-ODE-Atmospheric-Chem: v2026.10.001* [Software]. Zenodo.
+[https://doi.org/10.5281/zenodo.23672473](https://doi.org/10.5281/zenodo.23672473).
+
+This DOI identifies release `v2026.10.001`, published on 2026-10-26.
+Project institution: **Broomfield Digital LLC**.
+
+The accompanying paper is available on Zenodo:
+[A Fast ODE Solver for Atmospheric Chemistry](https://zenodo.org/records/23654022).
+Machine-readable citation metadata is in [CITATION.cff](CITATION.cff).
 
 ## Install and run
 

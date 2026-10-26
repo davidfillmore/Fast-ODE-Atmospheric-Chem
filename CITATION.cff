@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this archived release and the accompanying paper."
+type: software
+title: "davidfillmore/Fast-ODE-Atmospheric-Chem: v2026.10.001"
+authors:
+  - family-names: Fillmore
+    given-names: David
+    affiliation: Broomfield Digital LLC
+version: v2026.10.001
+date-released: 2026-10-26
+doi: 10.5281/zenodo.23672473
+url: https://doi.org/10.5281/zenodo.23672473
+repository-code: https://github.com/davidfillmore/Fast-ODE-Atmospheric-Chem
+references:
+  - type: unpublished
+    title: "A Fast ODE Solver for Atmospheric Chemistry"
+    authors:
+      - family-names: Fillmore
+        given-names: David
+    year: 2026
+    doi: 10.5281/zenodo.23654022
+    url: https://zenodo.org/records/23654022
